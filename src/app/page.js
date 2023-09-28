@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <><nav className="bg-purple text-white py-4 text-center h-139 w-1440 flex flex-col min-h-screen">
+    <><nav className="flex items-center justify-between h-139 w-1440 bg-purple min-h-screen">
       <div>
         <h1>Mundos em Papel</h1>
       </div>
@@ -14,23 +14,19 @@ export default function Home() {
           <li>Categoria</li>
         </ul>
       </div>
-      {/*<div className="h-12 w-12 rounded-full overflow-hidden">
+      <div className="h-12 w-12 rounded-full overflow-hidden">
         <img src="https://github.com/anadantasp.png" alt="avatar" />
-      </div>*/}
+      </div>
 
-      </nav><nav>
-        <div>
-          <footer className="flex-grow ">
-
-            <h1>Teste </h1>
-
-
-          </footer>
-        </div>
       </nav>
-      <nav>
+        <main className="container mt-10 mx-autp rounded p-4 flex-grow ">
+      
+            <h1>Teste </h1>
+            <img src></img>
+        </main> 
+      
         <div>
-          <footer className="bg-green h-189 w-1440 py-4 text-white text-center">
+          <footer className="bg-green h-189 w-1440 py-4 text-white text-center justify-between">
 
             <li>Meios de Pagamento </li>
             <li>Meios de Envio</li>
@@ -41,7 +37,7 @@ export default function Home() {
 
           </footer>
         </div>
-      </nav></>
+      </>
 
 
   );
