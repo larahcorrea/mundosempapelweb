@@ -11,9 +11,9 @@ export default function NavBar() {
             <div className="flex-row max-w-lg  w-2/6">
                 <input className="border-none rounded-md bg-green w-full" type="search" name="busca" id="busca" />
                 <ul className="flex justify-center gap-4 py-3">
-                    <li>Home</li>
-                    <li>Produtos</li>
-                    <li>Categoria</li>
+                    <Link href="/"><li>Home</li></Link>
+                    <Link href="/produtos"><li>Produtos</li></Link>
+                    <Link href="/categorias"><li>Categoria</li></Link>
                 </ul>
             </div>
             <div className="w-2/6 flex justify-end">
