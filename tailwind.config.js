@@ -10,6 +10,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       purple: '#4A314D',
+      green: '#A8BA9A;',
     },
     extend: {
       backgroundImage: {
