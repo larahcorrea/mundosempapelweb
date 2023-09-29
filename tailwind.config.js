@@ -10,7 +10,8 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       purple: '#4A314D',
-      green: '#ACE894'
+      green: '#ACE894',
+      white: '#FFF'
       
     },
     extend: {
@@ -19,6 +20,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+    },
+    fontSize: {
+      '2xl': '1.875rem',
+      '3xl': '2.5rem', 
     },
   },
   plugins: [],
