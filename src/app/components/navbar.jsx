@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     return (
-        <nav className="flex items-center justify-between bg-purple p-6 w-full">
+        <nav className="flex items-center justify-between bg-purple-900 p-6 w-full">
             <div className="w-2/6">
                 <Link href="/">
                     <h1 className="text-2xl text-slate-100">MUNDOS EM PAPEL</h1>

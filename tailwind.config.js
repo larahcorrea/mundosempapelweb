@@ -9,10 +9,15 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      purple: '#4A314D',
-      green: '#ACE894',
-      white: '#FFF'
-      
+      purple: {
+        500: '#6B6470',
+        900: '#4A314D',
+      },
+      green: {
+        500: '#ACE894',
+        900: '#A8BA9A',
+      },
+      white: '#FFF',
     },
     extend: {
       backgroundImage: {
@@ -22,11 +27,10 @@ module.exports = {
       },
     },
     fontSize: {
-      's2': '0.6rem',
+      s2: '0.6rem',
       '2xl': '1.875rem',
-      '3xl': '2.5rem', 
+      '3xl': '2.5rem',
     },
   },
   plugins: [],
 };
-
